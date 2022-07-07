@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section {
+    margin-top: 80px !important;
+    width: 400px;
+    padding-left: 100px;
+}
+
+.week {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+
+.mega {
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+.whatsapp {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: gray;
+}
+
+.tax {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.tax>span {
+    font-weight: normal !important;
+    color: gray !important;
+    font-size: 20px !important;
+}
+
+.subscribe {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border: 0px;
+    color: white;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:860px) {
+    .image {
+        width: 300px !important;
+        height: 300px !important;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .main {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .section {
+        width: 250px !important;
+        padding-left: 0px;
+        ;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .image {
+        width: 400px !important;
+        height: 300px !important;
+    }
+}
+
+.icon-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+span {
+    text-align: center;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
